@@ -17,19 +17,16 @@ avatar: /images/me.jpg
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   email: korvinus666@gmail.com
   facebook:
   flickr:
   github: j69
   instagram: jyrkil69
   linkedin: korv666
-  pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: JPTales
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
