@@ -83,3 +83,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
