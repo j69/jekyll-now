@@ -24,7 +24,7 @@ avatar: /images/me.jpg
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  upwork: korvinus666
+  upwork: o/profiles/users/_~017c0c65b95860aadf/
   email: korvinus666@gmail.com
   facebook:
   flickr:
@@ -79,10 +79,8 @@ sass:
 
 # Use the following plug-ins
 gems:
-  - jekyll-paginate
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:
@@ -93,18 +91,6 @@ exclude:
   - CNAME
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
   -
     scope:
       path: ""
