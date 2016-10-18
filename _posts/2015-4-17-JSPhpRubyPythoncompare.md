@@ -6,3 +6,4 @@ category: programming
 tags: [php, js, ruby, python]
 ---
 [Big table of JS/Php/Ruby/Python compare](http://hyperpolyglot.org/scripting)
+123
