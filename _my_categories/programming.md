@@ -1,6 +1,5 @@
 ---
-layout: default
 slug: programming
 name: Programming
-whatever: another value
+color: '#1abc9c'
 ---
