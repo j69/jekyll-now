@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: php
-name: Php
+slug: programming
+name: Programming
 whatever: another value
 ---
