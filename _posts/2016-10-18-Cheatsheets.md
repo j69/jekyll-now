@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cheetsheets
-date: 2016-010-18
+date: 2016-10-18
 category: programming
 tags: [mysql, md, bash]
 ---
