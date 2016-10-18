@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
+1
+<header class="text-xs-center">
+    <h1 class="text-uppercase">{{ page.name }}</h1>
+    <p class="text-muted user-select-none">Articles by tag</p>
+</header>
 
-{% capture page_subtitle %}Articles by tag{% endcapture %}
-
+2
 <div class="text-justify">
     {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
