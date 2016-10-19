@@ -324,15 +324,14 @@ h2 {
 }
 
 
-a.list-group-item, button.list-group-item {
+a.list-group-item {
   width: 100%;
   color: #555;
   text-align: inherit;
 }
-
 .list-group-item {
-  border-left: 0;
-  border-right: 0;
+  border-left: 0!important;
+  border-right: 0!important;
 }
 .list-group-item {
   position: relative;
