@@ -12,3 +12,5 @@ DAC In the Discretionary Access Control (DAC) model, access to resources is base
 
 For sites its usually
 Users -> Roles
+
+or simple use `is_admin` column in Users table 
