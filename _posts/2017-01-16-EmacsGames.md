@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Users roles
+title: Emacs games
 date: 2017-01-16
 tags: [games, bash]
 ---
