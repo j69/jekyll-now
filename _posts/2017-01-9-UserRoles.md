@@ -2,6 +2,7 @@
 layout: post
 title: Users roles
 date: 2017-01-09
+tags: [sql]
 ---
 
 First of all, what type of security model do you plan to implement? Role-based Access Control (RBAC) or Discretionary Access Control (DAC)?

@@ -2,6 +2,7 @@
 layout: post
 title: Background rule
 date: 2016-11-16
+tags: [sql]
 ---
 
 Backend - basically slacker . Therefore, it is not necessary to keep it in memory.
