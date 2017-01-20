@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/mini.css"/>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+          href="{{ site.baseurl }}/feed.xml"/>
+</head>
+<body>
+<div class="wrapabout">
+    <pre>    {
+      "<span class="hl">Name</span>": "<span class="hl">Jyrki Lindblom</span>",
+      "<span class="hl">Email</span>": "<a href="mailto:korvinus666@gmail.com" target="_blank">korvinus666@gmail.com</a>",
+      "<span class="hl">GitHub</span>": "<a href="https://github.com/nparsons08" target="_blank">nparsons08</a>",
+      "<span class="hl">LinkedIn</span>": "<a href="https://linkedin.com/in/nparsons" target="_blank">nparsons</a>",
+      "<span class="hl">Twitter</span>": "<a href="https://twitter.com/nickparsons" target="_blank">@nickparsons</a>",
+      "<span class="hl">Instagram</span>": "<a href="https://instagram.com/nicktarsons" target="_blank">nicktarsons</a>",
+      "<span class="hl">Medium</span>": "<a href="https://medium.com/@nparsons08" target="_blank">@nparsons08</a>",
+      "<span class="hl">Startups</span>": [
+        "<span class="hl"><a href="https://surrrge.com/" target="_blank">Surrrge</a></span>",
+        "<span class="hl"><a href="https://6px.io/" target="_blank">6px</a></span>",
+        "<span class="hl"><a href="https://getstream.io/" target="_blank">Stream</a></span>",
+        "<span class="hl"><a href="https://stakkr.io/" target="_blank">Stakkr</a></span>",
+      ],
+      "<span class="hl">Projects</span>": [
+        "<span class="hl"><a href="https://winds.getstream.io/" target="_blank">Winds</a></span>",
+        "<span class="hl"><a href="http://cabin.getstream.io/" target="_blank">Cabin</a></span>",
+      ],
+      "<span class="hl">Likes</span>": [
+        "<span class="hl">APIs</span>",
+        "<span class="hl">MongoDB</span>",
+        "<span class="hl">MySQL</span>",
+        "<span class="hl">Javascript</span>",
+        "<span class="hl">Node.js</span>",
+        "<span class="hl">Cloud Computing</span>"
+        "<span class="hl">EVs</span>"
+        "<span class="hl">Tesla</span>"
+        "<span class="hl">SpaceX</span>"
+      ]
+    }
+    </pre>
+</div>
+
+<div class="wrapinfo">
+    <div id="main" role="main" class="container">
+        {{ content }}
+    </div>
+</div>
+
+{% include analytics.html %}
+</body>
+</html>
