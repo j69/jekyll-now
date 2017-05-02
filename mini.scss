@@ -334,8 +334,9 @@ body {
 }
 .wrapinfo{
   width: 70%;
-  height: 100vh;
-  position: absolute;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
   right: 0;
 
   background-color: #f8f8f0;
