@@ -1,18 +1,8 @@
 ---
 ---
-
-//
-// IMPORTS
-//
-
-@import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
 /**************/
 /* BASE RULES */
 /**************/
-
 html {
   font-size: 100%;
 }
@@ -368,4 +358,18 @@ p {
   margin-left: auto;
   margin-right: auto;
   line-height: 2rem
+}
+
+
+
+
+/***********************
+Mobile resolution
+**********************/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 736px) {
+  .wrapinfo{
+    width: 100%!important;
+  }
 }
