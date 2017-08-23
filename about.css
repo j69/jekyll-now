@@ -1,0 +1,403 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border:0;  font:inherit;  font-size:100%;  margin:0;  padding:0;  vertical-align:baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block;  }
+html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+
+/*social icons*/
+a {
+    outline: none!important;
+}
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: #a62215;
+}
+i.fa {
+    width: 16px;
+}
+
+/*===========================Colors=======================*/
+.mainDetails,
+#contactDetails ul li a,
+a[href^=tel] {
+    color: #E4E4E4;
+}
+/*#contactDetails ul li,{
+#contactDetails ul li a,
+a[href^=tel] {
+    color: #444;
+}*/
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
+	/*background: #ededed;*/
+	background: #303133;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px 20px 40px;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    box-shadow: 0 0 5px rgb(228, 228, 228);
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+    padding: 5px 0 0 0;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+    display: inline-block;
+    text-align: left;
+}
+#contactDetails ul:last-child{
+    margin-left: 2em;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+    line-height: 1.5em;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	text-decoration: none;
+}
+#contactDetails ul li a:hover {
+	color: #cf8a05;
+}
+
+section {
+    padding: 20px 0 0 0;
+    display: inline-block;
+    display: -moz-inline-stack;
+    vertical-align: top;
+    width: 48%;
+}
+section:first-child{
+    padding-right: 1em;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+    position: relative;
+}
+.keySkills em {
+    font-size: 0.9em;
+}
+
+.keySkills .stars{
+    float: right;
+}
+
+.interests {
+    list-style-type: none;
+    font-size: 2em;
+    color: #444;
+}
+.interests i.fa{
+    width: 42px;
+}
+
+
+.languages{
+    position: relative;
+}
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px 10px 0;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 50px;
+  z-index: 2;
+}
+
+
+
+.education li{
+    background: url(../images/pomorb.png) no-repeat;
+    padding-left: 40px;
+}
+.education li i{
+    float: left;
+    padding-right: 10px;
+}
+.education, .certificates{
+    font-size: 0.9em;
+    list-style: none;
+}
+
+.certificates li{
+    background: url(../images/award-o.png) no-repeat left;
+    padding-left: 2em;
+    min-height: 30px;
+}
+
+/******************************************************
+                       ANIMATION
+******************************************************/
+
+/**blink**/
+@-webkit-keyframes blinkz {
+    10% { transform: scale(1, 1) rotate(80deg); }
+    20% { transform: scale(0, 0) rotate(160deg); }
+    100% { transform: scale(0, 0) rotate(0deg); }
+}
+@keyframes blinkz {
+    10% { transform: scale(1, 1) rotate(80deg); }
+    20% { transform: scale(0, 0) rotate(160deg); }
+    100% { transform: scale(0, 0) rotate(0deg); }
+}
+.blinkz {
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 0 10px #3d7a97;
+}
+.blinkz:after, .blinkz:before {
+    content: "";
+    position: absolute; top: 0; left: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image:
+    radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
+    linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
+    linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
+    animation: blinkz 10s linear infinite;
+    transform: scale(0, 0) rotate(0deg);
+    -webkit-animation: blinkz 10s linear infinite;
+}
+.blinkz:before {
+    top: -30%;
+    right: 0; left: auto;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+
+/************************************************************
+                        my Animation
+************************************************************/
+/*#name h1, #name h2, #headshot img,
+.keySkills .stars, .interests{
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 450ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+#headshot img,
+.keySkills .stars, .interests{
+    animation-delay: 0.8s;
+}
+#name h1, #name h2{
+    animation-delay: 0.2s;
+}
+@keyframes bounceIn{
+    0%{
+        opacity: 0;
+        transform: scale(0.3) translate3d(0,0,0);
+    }
+    50%{
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(0.89);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) translate3d(0,0,0);
+    }
+}*/
+
+
+/**********************************************************
+                           SIZES
+**********************************************************/
+@media all and (min-width: 700px) and (max-width: 810px) {
+    #headshot {
+        display: none;
+    }
+    .keySkills em{
+        display: block;
+    }
+    .keySkills .stars{
+        float: none;
+    }
+}
+@media all and (min-width: 810px) and (max-width: 882px) {
+    .keySkills em{
+        display: block;
+    }
+    .keySkills .stars{
+        float: none;
+    }
+}
+/*
+    Very small screens
+*/
+@media all and (max-width: 700px) {
+    #cv {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px;
+    }
+
+    #headshot {
+        display: none;
+    }
+
+    #name, #contactDetails {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contactDetails ul li{
+        margin-bottom: 1em;
+    }
+
+    .sectionTitle, .sectionContent {
+        float: none;
+        width: 100%;
+    }
+
+    .sectionTitle {
+        margin-left: -2px;
+        font-size: 1.25em;
+    }
+    section {
+        padding: 15px 0 0;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .mainDetails {
+        padding: 15px 15px;
+    }
+
+    section {
+        padding: 15px 0 0;
+        width: 100%;
+        display: block;
+    }
+
+    #mainArea {
+        padding: 0 25px;
+    }
+
+    #name h1 {
+        line-height: .8em;
+        margin-bottom: 4px;
+    }
+}
+@media all and (max-width: 430px) {
+    .keySkills em{
+        display: block;
+    }
+    .keySkills .stars{
+        float: none;
+    }
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+    .keySkills em{
+        display: inline;
+    }
+    .keySkills .stars{
+        float: right;
+    }
+    .blinkz:after, .blinkz:before {
+        animation: none;
+        -webkit-animation: none;
+    }
+}
