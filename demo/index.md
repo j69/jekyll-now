@@ -9,6 +9,13 @@ subtitle: Much Read! So Wow!
       <h1>Collection of perfecto</h1>
 
       <div class="entry">
+        ### Hot Keys
+
+        1 Tewstset
+        2 stsawqaa
+        3 afdawfawf
+
+        
         <ul class="list-unstyled">
             <li><a target="_blank" href="http://genes1s.net/kb/game.html">
                 <span class="glyphicon glyphicon-star"></span>
