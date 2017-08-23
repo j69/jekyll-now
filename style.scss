@@ -310,6 +310,11 @@ footer {
 
 
 
+
+
+
+
+
 h2 {
   font-size: 2rem;
 }
@@ -368,4 +373,141 @@ small, .small {
 }
 .text-xs-right {
   text-align: right !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headline-bg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 500px;
+  background: #253340 url('images/background/bg-header-small-1.jpg') no-repeat 50% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* ======= Features video ======= */
+.features-video {
+  padding-top: 170px;
+  position: relative;
+  z-index: 10;
+}
+.features-video .title {
+  font-size: 36px;
+  margin-bottom: 60px;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'Roboto', arial, sans-serif;
+}
+.features-video .video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.features-video iframe {
+  background: #fff;
+  padding: 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #eeeeee;
+  -webkit-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 4px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.05);
+}
+.fluid-width-video-wrapper {
+  width: 100%;
+  position: relative;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.10) 2px 4px 1px 0px;
+}
+.fluid-width-video-wrapper .content{
+  background-color: #fff;
+}
+.fluid-width-video-wrapper,
+.fluid-width-video-wrapper .content{
+  border-radius: 4px;
+}
+.fluid-width-video-wrapper .content ul{
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.fluid-width-video-wrapper .content ul li{
+  margin-bottom: 10px;
+}
+.fluid-width-video-wrapper .content ul li .glyphicon{
+  margin-right: 5px;
+}
+.fluid-width-video-wrapper .content ul li a{
+  font-family: 'Roboto', arial, sans-serif;
+}
+.fluid-width-video-wrapper .content ul li a,
+.fluid-width-video-wrapper .content ul li .glyphicon
+{
+  color: #666666;
+  font-size: 16px;
 }
