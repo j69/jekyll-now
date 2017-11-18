@@ -197,24 +197,24 @@ section:first-child{
 
 
 
-/*.education li{*/
-    /*background: url(../images/pomorb.png) no-repeat;*/
-    /*padding-left: 40px;*/
-/*}*/
-/*.education li i{*/
-    /*float: left;*/
-    /*padding-right: 10px;*/
-/*}*/
-/*.education, .certificates{*/
-    /*font-size: 0.9em;*/
-    /*list-style: none;*/
-/*}*/
+.education li{
+    background: url(../images/pomorb.png) no-repeat;
+    padding-left: 40px;
+}
+.education li i{
+    float: left;
+    padding-right: 10px;
+}
+.education, .certificates{
+    font-size: 0.9em;
+    list-style: none;
+}
 
-/*.certificates li{*/
-    /*background: url(../images/award-o.png) no-repeat left;*/
-    /*padding-left: 2em;*/
-    /*min-height: 30px;*/
-/*}*/
+.certificates li{
+    background: url(../images/award-o.png) no-repeat left;
+    padding-left: 2em;
+    min-height: 30px;
+}
 
 /******************************************************
                        ANIMATION
