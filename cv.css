@@ -11,13 +11,23 @@ p {
 	margin-bottom: 20px;
 	color: #444;
 }
-
 #cv {
 	width: 90%;
 	max-width: 800px;
 	background: #f3f3f3;
 	margin: 30px auto;
     border-radius: 5px;
+}
+nav{
+    position: fixed;
+    top: 30px;
+    right: 0;
+    background: #fff;
+    padding: 0 30px;
+}
+nav a{
+    display: inline-block;
+    margin: 0 5px;
 }
 
 /*social icons*/
@@ -40,16 +50,10 @@ i.fa {
 a[href^=tel] {
     color: #E4E4E4;
 }
-/*#contactDetails ul li,{
-#contactDetails ul li a,
-a[href^=tel] {
-    color: #444;
-}*/
 
 .mainDetails {
 	padding: 15px 25px;
 	border-bottom: 2px solid #cf8a05;
-	/*background: #ededed;*/
 	background: #303133;
 }
 
