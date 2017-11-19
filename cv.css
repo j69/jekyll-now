@@ -85,6 +85,7 @@ a[href^=tel] {
 
 #name {
 	float: left;
+    margin-bottom: 5px;
 }
 
 #contactDetails {
@@ -97,9 +98,6 @@ a[href^=tel] {
 	font-size: 0.9em;
     display: inline-block;
     text-align: left;
-}
-#contactDetails ul:last-child{
-    margin-left: 2em;
 }
 
 #contactDetails ul li {
@@ -328,7 +326,6 @@ section:first-child{
     }
 
     #contactDetails ul li{
-        margin-bottom: 1em;
     }
 
     .sectionTitle, .sectionContent {
