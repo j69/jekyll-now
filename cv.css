@@ -22,12 +22,15 @@ nav{
     position: fixed;
     top: 30px;
     right: 0;
-    background: #fff;
     padding: 0 30px;
+    border-bottom: 2px solid #cf8a05;
+    background: #303133;
 }
 nav a{
     display: inline-block;
-    margin: 0 5px;
+    padding: 10px;
+    color: #E4E4E4;
+    text-decoration: none;
 }
 
 /*social icons*/
