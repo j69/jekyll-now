@@ -17,6 +17,7 @@ p {
 	max-width: 800px;
 	background: #f3f3f3;
 	margin: 30px auto;
+    border-radius: 5px;
 }
 
 /*social icons*/
@@ -111,6 +112,10 @@ a[href^=tel] {
 #contactDetails ul li a:hover {
 	color: #cf8a05;
 }
+#contactDetails ul:last-child{
+    margin-left: 2em;
+}
+
 
 section {
     padding: 20px 0 0 0;
@@ -142,19 +147,9 @@ section:first-child{
 	margin-bottom: 3px;
 }
 
-.keySkills {
-	list-style-type: none;
-	margin-bottom: 20px;
-	font-size: 1em;
-	color: #444;
-}
-
-.keySkills ul li {
+.keySkills li {
 	margin-bottom: 3px;
     position: relative;
-}
-.keySkills em {
-    font-size: 0.9em;
 }
 
 .keySkills .stars{
@@ -170,36 +165,20 @@ section:first-child{
     width: 42px;
 }
 
-
-.languages{
-    position: relative;
-}
-.chart {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 10px 10px 10px 0;
-  text-align: center;
-}
-.chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.percent {
-  display: inline-block;
-  line-height: 50px;
-  z-index: 2;
-}
-
-.education li i{
-    float: left;
-    padding-right: 10px;
-}
-.education, .certificates{
-    font-size: 0.9em;
+.certificates,
+.projects,
+.keySkills {
     list-style: none;
+}
+.projects,
+.keySkills {
+    margin-bottom: 1em;
+    color: #444;
+}
+
+.projects li{
+    display: inline-block;
+    margin-right: 1em;
 }
 .certificates li{
     min-height: 30px;
@@ -209,7 +188,6 @@ section:first-child{
                        ANIMATION
 ******************************************************/
 
-/**blink**/
 @-webkit-keyframes blinkz {
     10% { transform: scale(1, 1) rotate(80deg); }
     20% { transform: scale(0, 0) rotate(160deg); }
@@ -245,44 +223,6 @@ section:first-child{
     animation-delay: 5s;
     -webkit-animation-delay: 5s;
 }
-
-/************************************************************
-                        my Animation
-************************************************************/
-#name h1, #name h2, #headshot img,
-.keySkills .stars, .interests{
-    opacity: 0;
-    animation-name: bounceIn;
-    animation-duration: 450ms;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
-#headshot img,
-.keySkills .stars, .interests{
-    animation-delay: 0.8s;
-}
-#name h1, #name h2{
-    animation-delay: 0.2s;
-}
-@keyframes bounceIn{
-    0%{
-        opacity: 0;
-        transform: scale(0.3) translate3d(0,0,0);
-    }
-    50%{
-        opacity: 0.9;
-        transform: scale(1.1);
-    }
-    80%{
-        opacity: 1;
-        transform: scale(0.89);
-    }
-    100%{
-        opacity: 1;
-        transform: scale(1) translate3d(0,0,0);
-    }
-}
-
 /**********************************************************
                            SIZES
 **********************************************************/
@@ -305,9 +245,9 @@ section:first-child{
         float: none;
     }
 }
-/*
-    Very small screens
-*/
+
+
+
 @media all and (max-width: 700px) {
     #cv {
         width: 95%;
