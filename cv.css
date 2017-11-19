@@ -195,12 +195,6 @@ section:first-child{
   z-index: 2;
 }
 
-
-
-.education li{
-    background: url(../images/pomorb.png) no-repeat;
-    padding-left: 40px;
-}
 .education li i{
     float: left;
     padding-right: 10px;
@@ -209,10 +203,7 @@ section:first-child{
     font-size: 0.9em;
     list-style: none;
 }
-
 .certificates li{
-    background: url(../images/award-o.png) no-repeat left;
-    padding-left: 2em;
     min-height: 30px;
 }
 
