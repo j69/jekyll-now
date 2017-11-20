@@ -2,13 +2,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     border:0;  font:inherit;  font-size:100%;  margin:0;  padding:0;  vertical-align:baseline;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block;  }
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #181818; font-family: Verdana, sans-serif; font-size: 16px; color: #222;}
 .clear {clear: both;}
 
 p {
-	font-size: 1em;
-	line-height: 1.4em;
-	margin-bottom: 20px;
+	margin-bottom: 1.2em;
 	color: #444;
 }
 #cv {
@@ -61,16 +59,13 @@ a[href^=tel] {
 }
 
 #name h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
-	font-size: 2em;
-	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
 }
 
 #mainArea {
@@ -136,14 +131,12 @@ section:first-child{
 }
 
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #cf8a05;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
@@ -169,7 +162,7 @@ section:first-child{
     color: #444;
 }
 .interests i.fa{
-    width: 42px;
+    width: 36px;
 }
 
 .certificates,
@@ -184,7 +177,7 @@ section:first-child{
 }
 
 .projects li{
-    display: inline-block;
+    display: inline;
     margin-right: 1em;
 }
 .certificates li{
