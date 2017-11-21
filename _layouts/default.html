@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/favicon.ico">
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
   <body>
@@ -25,7 +22,6 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/blog/">Blog</a>
             <a href="{{ site.baseurl }}/csv">CSV</a>
           </nav>
         </header>
@@ -34,14 +30,6 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
     </div>
 
     {% include analytics.html %}
