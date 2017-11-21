@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Sublime Settings
-date: 2017-04-25
+layout: page
+title: Sublime
+permalink: /sublime/
 ---
 
 ### Hot Keys

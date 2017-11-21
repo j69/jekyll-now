@@ -1,14 +1,3 @@
-#
-# This file contains configuration flags to customize your site
-#
-collections:
-  my_categories:
-    output: true
-    permalink: /blog/category/:name/
-  my_tags:
-    output: true
-    permalink: /blog/tag/:name/
-
 # Name of your site (displayed in the header)
 name: Jyrki Lindblom
 
@@ -17,31 +6,6 @@ description: Sovellussuunnittelijat
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/me.jpg
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  upwork: o/profiles/users/_~017c0c65b95860aadf/
-  email: korvinus666@gmail.com
-  packagist: j69
-  github: j69
-  gitbook: j69
-  linkedin: korv666
-  rss: # just type anything here for a working RSS icon
-  twitter: JPTales
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-56183524-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -88,17 +52,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_categories
-    values:
-      layout: blog_by_category
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: blog_by_tag
