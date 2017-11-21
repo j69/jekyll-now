@@ -1,4 +1,0 @@
----
-slug: md
-name: Markdown
----
