@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CSV
-permalink: /csv/
+title: MISSION
+permalink: /mission/
 ---
 
 ##  MISSION STATEMENT
