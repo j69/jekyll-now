@@ -239,6 +239,10 @@ section:first-child{
         min-width: 280px;
     }
 
+    nav{
+        display: none;
+    }
+
     #headshot {
         display: none;
     }
@@ -265,34 +269,5 @@ section:first-child{
         padding: 15px 0 0;
         width: 100%;
         display: block;
-    }
-}
-
-@media all and (max-width: 480px) {
-    .mainDetails {
-        padding: 15px 15px;
-    }
-
-    section {
-        padding: 15px 0 0;
-        width: 100%;
-        display: block;
-    }
-
-    #mainArea {
-        padding: 0 25px;
-    }
-
-    #name h1 {
-        line-height: .8em;
-        margin-bottom: 4px;
-    }
-}
-@media all and (max-width: 430px) {
-    .keySkills em{
-        display: block;
-    }
-    .keySkills .stars{
-        float: none;
     }
 }
