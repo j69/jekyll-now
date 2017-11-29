@@ -210,33 +210,14 @@ section:first-child{
 /**********************************************************
                            SIZES
 **********************************************************/
-@media all and (min-width: 700px) and (max-width: 810px) {
-    #headshot {
-        display: none;
-    }
-    .keySkills em{
-        display: block;
-    }
-    .keySkills .stars{
-        float: none;
-    }
-}
-@media all and (min-width: 810px) and (max-width: 882px) {
-    .keySkills em{
-        display: block;
-    }
-    .keySkills .stars{
-        float: none;
-    }
-}
-
-
-
 @media all and (max-width: 700px) {
     #cv {
         width: 95%;
         margin: 10px auto;
         min-width: 280px;
+    }
+    #cv .mainDetails{
+        padding: 0;
     }
 
     nav{
@@ -253,7 +234,8 @@ section:first-child{
         text-align: center;
     }
 
-    #contactDetails ul li{
+    #contactDetails ul{
+        font-size: 0.8em;
     }
 
     .sectionTitle, .sectionContent {
