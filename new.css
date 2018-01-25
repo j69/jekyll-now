@@ -88,8 +88,8 @@ i.fa {
 }
 
 #name {
-	float: left;
-    margin-bottom: 5px;
+    float: right;
+    margin: 0 1em 0.5em;
 }
 
 #contactDetails {
