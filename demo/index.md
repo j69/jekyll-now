@@ -17,10 +17,6 @@ subtitle: Much Read! So Wow!
                 <span class="glyphicon glyphicon-star"></span>
                 Cool retro game Robo!
             </a></li>
-            <li><a target="_blank" href="http://gameofbombs.com/">
-                <span class="glyphicon glyphicon-star"></span>
-                Bomberman online
-            </a></li>
             <li><a target="_blank" href="http://alexnisnevich.github.io/untrusted/">
                 <span class="glyphicon glyphicon-star"></span>
                 Untrusted
