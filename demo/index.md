@@ -17,10 +17,6 @@ subtitle: Much Read! So Wow!
                 <span class="glyphicon glyphicon-star"></span>
                 Cool retro game Robo!
             </a></li>
-            <li><a target="_blank" href="http://alexnisnevich.github.io/untrusted/">
-                <span class="glyphicon glyphicon-star"></span>
-                Untrusted
-            </a></li>
             <li><a target="_blank" href="http://adarkroom.doublespeakgames.com/">
                 <span class="glyphicon glyphicon-star"></span>
                 Endless Text-Quest A Dark Room
@@ -29,18 +25,12 @@ subtitle: Much Read! So Wow!
                 <span class="glyphicon glyphicon-star"></span>
                 Game studio HypnoticOwl
             </a></li>
-            <li><a target="_blank" href="http://mystaticself.com/#/info">
-                <span class="glyphicon glyphicon-star"></span>
-                MY/STATIC/SELF</a></li>
             <li><a target="_blank" href="http://labs.plan8.se/cloudspiano/">
                 <span class="glyphicon glyphicon-star"></span>
                 CloudsPiano</a></li>
             <li><a target="_blank" href="http://gifdanceparty.giphy.com/">
                 <span class="glyphicon glyphicon-star"></span>
                 GIF DANCE PARTY</a></li>
-            <li><a target="_blank" href="http://jurassicsystems.com/">
-                <span class="glyphicon glyphicon-star"></span>
-                Jurassic Park Systems</a></li>
             <li><a target="_blank" href="http://games.jessefreeman.com/new-super-resident-raver/">
                 <span class="glyphicon glyphicon-star"></span>
                 New Super Resident Raver</a></li>
