@@ -5,21 +5,28 @@ permalink: /vsc/
 ---
 
 ### Hot Keys
-`shift+RMouse` = vertical select
 
-`Ctrl + D` - select all vars
+⌘P Quick Open, Go to File…
+⌘, User Settings
+⌥↓ / ⌥↑ Move line down/up
+⇧⌥↓ / ⇧⌥↑ Copy line down/up
+⇧⌘K Delete line
+⌘↑ / ⌘↓ Go to beginning/end of file
+⌘/ Toggle line comment
+⇧⌥A Toggle block comment
+⌥Z Toggle word wrap
+⇧⌥ + drag mouse Column (box) selection
+⌘F Find
+⌥⌘F Replace
+⌃Space Trigger suggestion
+⇧⌥F Format document
+⌘K ⌘F Format selection
+⌃Tab / ⌃⇧Tab Open next / previous
+⌃` Show integrated terminal
 
-`Ctrl + H` — Replace
-
-`Ctrl + Shift + D` - Copy code line
-
-`F9 и Ctrl+F9` — sort strings ASC (!HUOM! = int as string)
 
 
 ### Plugins:
-https://packagecontrol.io/ = look for new packages
-
-`ctrl + shift +p`, type `ins`, select “Install Package”
 
 * Angular Language Service
 * Angular v5 Snippets
