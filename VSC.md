@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VSCode
+title: Visual Stusio Code settings
 permalink: /vsc/
 ---
 
