@@ -6,23 +6,23 @@ permalink: /vsc/
 
 ### Hot Keys
 
-⌘P Quick Open, Go to File…
-⌘, User Settings
-⌥↓ / ⌥↑ Move line down/up
-⇧⌥↓ / ⇧⌥↑ Copy line down/up
-⇧⌘K Delete line
-⌘↑ / ⌘↓ Go to beginning/end of file
-⌘/ Toggle line comment
-⇧⌥A Toggle block comment
-⌥Z Toggle word wrap
-⇧⌥ + drag mouse Column (box) selection
-⌘F Find
-⌥⌘F Replace
-⌃Space Trigger suggestion
-⇧⌥F Format document
-⌘K ⌘F Format selection
-⌃Tab / ⌃⇧Tab Open next / previous
-⌃` Show integrated terminal
+* ⌘P Quick Open, Go to File…
+* ⌘, User Settings
+* ⌥↓ / ⌥↑ Move line down/up
+* ⇧⌥↓ / ⇧⌥↑ Copy line down/up
+* ⇧⌘K Delete line
+* ⌘↑ / ⌘↓ Go to beginning/end of file
+* ⌘/ Toggle line comment
+* ⇧⌥A Toggle block comment
+* ⌥Z Toggle word wrap
+* ⇧⌥ + drag mouse Column (box) selection
+* ⌘F Find
+* ⌥⌘F Replace
+* ⌃Space Trigger suggestion
+* ⇧⌥F Format document
+* ⌘K ⌘F Format selection
+* ⌃Tab / ⌃⇧Tab Open next / previous
+* ⌃` Show integrated terminal
 
 
 
