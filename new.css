@@ -89,8 +89,7 @@ i.fa {
 }
 
 #name {
-    float: right;
-    margin: 0 1em 0.5em;
+    float: left;
 }
 
 #contactDetails {
@@ -108,9 +107,6 @@ i.fa {
 #contactDetails ul li {
 	margin-bottom: 3px;
     line-height: 1.5em;
-}
-#contactDetails ul:last-child{
-    margin-left: 2em;
 }
 
 .contactText{
