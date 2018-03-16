@@ -90,6 +90,7 @@ i.fa {
 
 #name {
     float: left;
+    margin: 5px 0 0 10px;
 }
 
 #contactDetails {
