@@ -11,33 +11,27 @@ permalink: /vsc/
 * ⌥↓ / ⌥↑ Move line down/up
 * ⇧⌥↓ / ⇧⌥↑ Copy line down/up
 * ⇧⌘K Delete line
-* ⌘↑ / ⌘↓ Go to beginning/end of file
 * ⌘/ Toggle line comment
-* ⇧⌥A Toggle block comment
-* ⌥Z Toggle word wrap
+* ⌘G Fin next
 * ⇧⌥ + drag mouse Column (box) selection
-* ⌘F Find
-* ⌥⌘F Replace
 * ⌃Space Trigger suggestion
-* ⇧⌥F Format document
-* ⌘K ⌘F Format selection
-* ⌃Tab / ⌃⇧Tab Open next / previous
-* ⌃` Show integrated terminal
 
-
+### Terminal
+Just use iTerm2 for CLI RUN and DB BROWSE
 
 ### Plugins:
 
 * Alignment
-* Angular Language Service
-* Angular v5 Snippets
-* Atom One Dark theme
-* MagicPython
+* Git indicators
 * Python
 * select highlight in minimap
-* TSlint
 
- and switch to pycodestyle (old pep8)
+additionaly for Ang6
+* (Angular Language Service)
+* (Angular v5 Snippets)
+* (TSlint)
+
+ and switch to flake8
  ⇧⌘P - python select linter, run linter
 
 ### Settings
@@ -53,7 +47,6 @@ Preferences -> Settings - User.
     "git.confirmSync": false,
     "python.linting.pydocstyleEnabled": true,
     "telemetry.enableCrashReporter": false,
-    "editor.renderWhitespace": "boundary",
     "editor.cursorBlinking": "phase",
     "telemetry.enableTelemetry": false,
     "files.trimTrailingWhitespace": true,
@@ -76,14 +69,20 @@ Preferences -> Settings - User.
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     "workbench.colorCustomizations": {
-        // "editor.background": "#1B1B1B",
-        "editor.lineHighlightBackground": "#5f43bb"
+        "editor.selectionHighlightBorder": "#dfdfdf",
+        "editor.selectionForeground": "#000000",
+        "editor.lineHighlightBackground": "#007AD0"
     },
-    "workbench.colorTheme": "Atom One Dark",
-    // "python.linting.pydocstyleArgs": [
-        // "--max-line-length=120",
-        // "--ignore=E241",
-        // "--ignore=E203",
-    // ],
+    "git.autofetch": true,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E251",
+        "--ignore=E203",
+        "--ignore=E221",
+        "--ignore=E251",
+    ],
+    "window.zoomLevel": 0
 }
 ```
