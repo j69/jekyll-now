@@ -43,11 +43,14 @@ https://packagecontrol.io/ = look for new packages
 `ctrl + shift +p`, type `ins`, select “Install Package”
 
 * Aligment
-* AutoBackups
 * PlainTasks
-* Emmet
 * SublimeLinter
-* +sublimeLinter-php,
-* +sublimelinter-jsl
+* Anaconda http://damnwidget.github.io/anaconda/
+* requirementstxt
+* SublimeLinter, Sublime​Linter-pyyaml, SublimeLinter-jshint, SublimeLinter-json.
+* GitGutter
+* SideBarEnhancements
 
 >Right mouse - sublimelinter-mark style - fill
+
+https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
