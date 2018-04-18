@@ -17,14 +17,13 @@ permalink: /vsc/
 * ⌃Space Trigger suggestion
 
 ### Terminal
-Just use iTerm2 for CLI RUN and DB BROWSE
+Use iTerm2 for CLI RUN and DB BROWSE
 
 ### Plugins:
 
 * Alignment
 * Git indicators
 * Python
-* select highlight in minimap
 
 additionaly for Ang6
 * (Angular Language Service)

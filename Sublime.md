@@ -33,24 +33,9 @@ Preferences -> Settings - User.
 //"save_on_focus_lost": false//true 4 autosave like IDE
 ```
 
-### Theme
-
-enlightened color scheme
-
 ### Plugins:
 https://packagecontrol.io/ = look for new packages
 
 `ctrl + shift +p`, type `ins`, select “Install Package”
-
-* Aligment
+* Enlightened color scheme
 * PlainTasks
-* SublimeLinter
-* Anaconda http://damnwidget.github.io/anaconda/
-* requirementstxt
-* SublimeLinter, Sublime​Linter-pyyaml, SublimeLinter-jshint, SublimeLinter-json.
-* GitGutter
-* SideBarEnhancements
-
->Right mouse - sublimelinter-mark style - fill
-
-https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
