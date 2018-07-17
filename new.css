@@ -22,6 +22,12 @@ p {
 	margin-bottom: 1.2em;
 	color: #444;
 }
+body{
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    background: #00303e;
+}
 #cv {
 	width: 90%;
 	max-width: 800px;
