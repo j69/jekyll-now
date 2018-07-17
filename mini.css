@@ -3,10 +3,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block;  }
 html, body {
+    font-family: 'Conso', Courier New, monospace;
     background: #00303e;
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
-    color: #222;
+    color: #f8f8f2;
 }
 .clear {clear: both;}
 
