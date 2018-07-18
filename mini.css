@@ -4,13 +4,16 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block;  }
 
 html, body {
-    font-family: 'Conso', Courier New, monospace;
+
+    font-family: 'Raleway', sans-serif;
     background: #00303e;
     color: #f8f8f2;
 }
 .clear {clear: both;}
 
 a{
+    font-weight: bold;
+    font-style: normal;
     color: #f8f8f2;
     text-decoration: none;
     outline: none!important;
@@ -99,7 +102,7 @@ i.fa {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-    line-height: 1.5em;
+    line-height: 24px;
 }
 
 .contactText{
