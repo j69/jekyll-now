@@ -17,7 +17,7 @@ a{
 }
 a:hover,
 #contactDetails ul li a:hover{
-    /* color: #cf8a05; */
+    background-color: #0096c1;
 }
 
 p {
