@@ -34,6 +34,7 @@ p {
     padding: 0;
     white-space: nowrap;
     color: #999999;
+    display: block;
 }
 
 #cv {
@@ -224,4 +225,37 @@ i.fa {
         width: 100%;
         display: block;
     }
+}
+
+
+/* wwecwec */
+
+.pad {
+    font-family: Courier New, monospace
+}
+.blue {
+    color: #66d9ef;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+.green {
+    color: #a6e22e;
+}
+.orange {
+    color: #fd971f;
+}
+.string-indent {
+    display: block;
+    text-indent: -29px;
+    padding-left: 58px;
+}
+.fuschia {
+    color: #ec007c;
+}
+.yellow {
+    color: #efe158;
+}
+.blue-link {
+    color: #66d9ef;
 }
