@@ -17,8 +17,7 @@ a{
     text-decoration: none;
     outline: none!important;
 }
-a:hover,
-#contactDetails ul li a:hover{
+a:hover{
     background-color: #0096c1;
 }
 
@@ -42,13 +41,6 @@ p {
 	max-width: 1112px;
 	margin: 30px auto;
 }
-nav{
-    width: 200px;
-    position: fixed;
-    top: 30px;
-    right: 0;
-    padding: 0 30px 0 0;
-}
 nav a{
     display: inline-block;
     padding: 10px;
@@ -62,55 +54,12 @@ i.fa {
     width: 16px;
 }
 
-#name h1 {
+.name{
 	font-size: 2em;
 	font-weight: 700;
-	margin-bottom: -6px;
 }
-
-#name h2 {
+.title{
 	font-size: 1.5em;
-}
-
-#headshot {
-	float: left;
-	margin-right: 15px;
-}
-
-#headshot img {
-	width: 100%;
-	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-    box-shadow: 0 0 5px rgb(228, 228, 228);
-}
-
-#name {
-    float: left;
-    margin: 5px 0 0 10px;
-}
-
-#contactDetails {
-	float: right;
-    padding: 5px 0 0 0;
-}
-
-#contactDetails ul {
-	list-style-type: none;
-	font-size: 0.9em;
-    display: inline-block;
-    text-align: left;
-}
-
-#contactDetails ul li {
-	margin-bottom: 3px;
-    line-height: 24px;
-}
-
-.contactText{
-    float: right;
-    width: 350px;
-    margin: 1em auto;
 }
 
 .sectionContent{
@@ -141,6 +90,11 @@ i.fa {
     list-style: none;
     margin-bottom: 1em;
 }
+
+
+
+
+
 /******************************************************
                        ANIMATION
 ******************************************************/
@@ -175,7 +129,7 @@ i.fa {
     -webkit-animation: blinkz 10s linear infinite;
 }
 .blinkz:before {
-    top: -30%;
+    top: -50%;
     right: 0; left: auto;
     animation-delay: 5s;
     -webkit-animation-delay: 5s;
@@ -192,12 +146,7 @@ i.fa {
     #cv .mainDetails{
         padding: 0;
     }
-
-    nav{
-        display: none;
-    }
-
-    #headshot {
+    .gandalf{
         display: none;
     }
 
@@ -228,9 +177,24 @@ i.fa {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* wwecwec */
 
-.pad {
+.pad, .comment {
     font-family: Courier New, monospace
 }
 .blue {
@@ -258,4 +222,7 @@ i, cite, em, var, address, dfn {
 }
 .blue-link {
     color: #66d9ef;
+}
+.purple-link {
+    color: #ae81ff;
 }
