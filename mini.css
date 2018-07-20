@@ -21,12 +21,6 @@ a:hover{
     background-color: #0096c1;
 }
 
-p {
-    margin-bottom: 1.2em;
-    font-size: 16px;
-    line-height: 24px;
-}
-
 .comment{
     overflow: hidden;
     margin: 0;
@@ -41,17 +35,14 @@ p {
 	max-width: 1112px;
 	margin: 30px auto;
 }
+
 nav a{
     display: inline-block;
     padding: 10px;
     text-decoration: none;
 }
-nav .additional{
+.additional{
     font-size: 0.8em;
-}
-
-i.fa {
-    width: 16px;
 }
 
 .name{
@@ -61,40 +52,43 @@ i.fa {
 .title{
 	font-size: 1.5em;
 }
-
-.sectionContent{
-    padding: 20px 0 0 0;
-    display: inline-block;
-    vertical-align: top;
-    width: 48%;
+.multi-column {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 }
-
-.sectionTitle h1 {
-	font-style: italic;
-	font-size: 1.5em;
+.pad, .comment {
+    font-family: Courier New, monospace
 }
-
-.keySkills li {
-	margin-bottom: 3px;
-    position: relative;
+.blue {
+    color: #66d9ef;
 }
-
-.interests {
-    list-style-type: none;
-    font-size: 2em;
+i, cite, em, var, address, dfn {
+    font-style: italic;
 }
-.interests i.fa{
-    width: 36px;
+.green {
+    color: #a6e22e;
 }
-.keySkills {
-    list-style: none;
-    margin-bottom: 1em;
+.orange {
+    color: #fd971f;
 }
-
-
-
-
-
+.string-indent {
+    display: block;
+    text-indent: -29px;
+    padding-left: 58px;
+}
+.fuschia {
+    color: #ec007c;
+}
+.yellow {
+    color: #efe158;
+}
+.blue-link {
+    color: #66d9ef;
+}
+.purple-link {
+    color: #ae81ff;
+}
 /******************************************************
                        ANIMATION
 ******************************************************/
@@ -143,86 +137,12 @@ i.fa {
         margin: 10px auto;
         min-width: 280px;
     }
-    #cv .mainDetails{
-        padding: 0;
-    }
     .gandalf{
         display: none;
     }
-
-    #name, #contactDetails {
-        float: none;
-        width: 100%;
-        text-align: center;
+    .multi-column {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
     }
-
-    #contactDetails ul{
-        font-size: 0.8em;
-    }
-
-    .sectionTitle, .sectionContent {
-        float: none;
-        width: 100%;
-    }
-
-    .sectionTitle {
-        margin-left: -2px;
-        font-size: 1.25em;
-    }
-    section {
-        padding: 15px 0 0;
-        width: 100%;
-        display: block;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* wwecwec */
-
-.pad, .comment {
-    font-family: Courier New, monospace
-}
-.blue {
-    color: #66d9ef;
-}
-i, cite, em, var, address, dfn {
-    font-style: italic;
-}
-.green {
-    color: #a6e22e;
-}
-.orange {
-    color: #fd971f;
-}
-.string-indent {
-    display: block;
-    text-indent: -29px;
-    padding-left: 58px;
-}
-.fuschia {
-    color: #ec007c;
-}
-.yellow {
-    color: #efe158;
-}
-.blue-link {
-    color: #66d9ef;
-}
-.purple-link {
-    color: #ae81ff;
 }
