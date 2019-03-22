@@ -21,9 +21,8 @@ Use iTerm2 for CLI RUN and DB BROWSE
 
 ### Plugins:
 
-* Auto Rename Tag
 * Dracula Official (soft theme)
-* Rainbow CSV
+* GitLens
 
 additionaly for Angular!
 * (Angular Language Service)
