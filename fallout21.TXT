@@ -1,0 +1,56 @@
+
+
+                                  FALLOUT
+                         VAULT-13 PERSONNEL RECORD
+                        28 October 2162  0815 hours
+
+  Name: Jyrki69            Age: 33               Gender: Male
+ Level: 21                 Exp: 210,700      Next Level: 
+
+ ::: Statistics :::
+       Strength: 10         Hit Points: 112/117         Sequence: 10
+     Perception: 10        Armor Class: 035         Healing Rate: 02
+      Endurance: 06      Action Points: 13       Critical Chance: 005%
+       Charisma: 07       Melee Damage: 05          Carry Weight: 215 lbs.
+   Intelligence: 09        Damage Res.: 050%
+        Agility: 10     Radiation Res.: 042%
+           Luck: 05        Poison Res.: 030%
+
+
+ ::: Traits :::           ::: Perks :::           ::: Karma :::
+  Small Frame              Awareness               Reputation (General) 63
+  Gifted                   Bonus Rate of Fire      Champion
+                           Educated                
+                           Action Boy-3            
+                           Explorer                
+
+ ::: Skills :::                ::: Kills :::
+  Small Guns ..... 200%        Men ............ 084
+  Big Guns ....... 050%        Women .......... 019
+  Energy Weapons . 200%        Super Mutants .. 070
+  Unarmed ........ 065%        Ghouls ......... 015
+  Melee Weapons .. 055%        Radscorpions ... 024
+  Throwing ....... 040%        Rats ........... 132
+  First aid ...... 099%        Floaters ....... 005
+  Doctor ......... 015%        Centaurs ....... 006
+  Sneak .......... 025%        Robots ......... 029
+  Lockpick ....... 080%        DeathClaws ..... 100
+  Steal .......... 020%
+  Traps .......... 020%
+  Science ........ 108%
+  Repair ......... 092%
+  Speech ......... 101%
+  Barter ......... 024%
+  Gambling ....... 025%
+  Outdoorsman .... 092%
+
+
+ ::: Inventory :::
+  85,080x Bottle Caps      56x Stimpak              1x Lock Picks          
+  10x Micro Fusion Cell    1x Security Card         1x Key                 
+  1x COC Badge             1x COC Badge             1x Gatling Laser       
+  1x Turbo Plasma Rifle    1x Hardened Power Armor
+
+                                      Total Weight: 196 lbs.
+
+

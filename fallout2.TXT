@@ -1,0 +1,95 @@
+
+
+                                  FALLOUT
+                         VAULT-13 PERSONNEL RECORD
+                        27 February 2244  0001 hours
+
+  Name: Jyrki              Age: 22               Gender: Male
+ Level: 29                 Exp: 424,460      Next Level: 435,000
+
+ ::: Statistics :::
+       Strength: 10         Hit Points: 142/142         Sequence: 10
+     Perception: 09        Armor Class: 045         Healing Rate: 01
+      Endurance: 04      Action Points: 12       Critical Chance: 005%
+       Charisma: 07       Melee Damage: 05          Carry Weight: 275 lbs.
+   Intelligence: 09        Damage Res.: 055%
+        Agility: 10     Radiation Res.: 068%
+           Luck: 05        Poison Res.: 020%
+
+
+ ::: Traits :::
+  Gifted
+  Fast Shot
+ ::: Perks :::
+  Awareness
+  Bonus Rate of Fire
+  Educated
+  Slayer
+  Sniper
+  Action Boy (2)
+  Dodger
+  Tag!
+  Gecko Skinning
+
+ ::: Karma :::
+  Karma: 1657 (Savior of the Damned)
+  Champion
+  Grave Digger
+  Made Man: Wright
+
+ ::: Reputation :::
+  Klamath: Liked
+  Den: Accepted
+  Vault City: Idolized
+  Gecko: Idolized
+  Modoc: Liked
+  Sierra Army Depot: Neutral
+  Broken Hills: Idolized
+  New Reno: Idolized
+  Redding: Neutral
+  New California Republic: Idolized
+  Vault 13: Idolized
+  San Francisco: Idolized
+  Raiders: Vilified
+  Vault 15: Idolized
+  Ghost Farm: Neutral
+
+ ::: Reliances :::
+  RadAway reliance
+
+ ::: Skills :::                ::: Kills :::
+  Small Guns ..... 181%        Men ............ 214
+  Big Guns ....... 010%        Women .......... 062
+  Energy Weapons . 264%        Super Mutants .. 028
+  Unarmed ........ 084%        Radscorpions ... 140
+  Melee Weapons .. 070%        Rats ........... 178
+  Throwing ....... 030%        Floaters ....... 008
+  First aid ...... 095%        Centaurs ....... 004
+  Doctor ......... 086%        Robots ......... 019
+  Sneak .......... 025%        Dogs ........... 076
+  Lockpick ....... 085%        Manti .......... 012
+  Steal .......... 020%        DeathClaws ..... 013
+  Traps .......... 019%        Plants ......... 047
+  Science ........ 118%        Geckos ......... 075
+  Repair ......... 094%        Aliens ......... 039
+  Speech ......... 105%        Giant Ants ..... 076
+  Barter ......... 018%        Big Bad Boss ... 001
+  Gambling ....... 015%
+  Outdoorsman .... 088%
+
+
+ ::: Inventory :::
+  4x Vic's Water Flask     1x Jet Antidote          75,122x Money          
+  1x Dixon's Eye           1x Cookie                1x Clifton's Eye       
+  1x Vault 15 Shack Key    1x Vault 15 Keycard      1x Tanker Fob          
+  1x Blue Pass Key         38x Stimpak              3x 2mm EC              
+  11x Micro Fusion Cell    41x Super Stimpak        1x Tool                
+  1x Mirrored Shades       1x Technical Manual      6x Water Flask         
+  1x Electronic Lockpick MKII  1x G.E.C.K.              1x Presidential Access Key
+  2x Rubber Boots          4x Explosive Rocket      1x PPK12 Gauss Pistol  
+  1x PPK12 Gauss Pistol    1x Gatling Laser         1x YK42B Pulse Rifle   
+  1x Rocket Launcher       1x Advanced Power Armor
+
+                                      Total Weight: 273 lbs.
+
+
