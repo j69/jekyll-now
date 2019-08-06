@@ -4,7 +4,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block;  }
 
 html, body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Verdana', sans-serif;
     background: #00303e;
     color: #f8f8f2;
 }
