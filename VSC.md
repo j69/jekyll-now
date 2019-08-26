@@ -16,18 +16,28 @@ permalink: /vsc/
 * ⇧⌥ + drag mouse Column (box) selection
 * ⌃Space Trigger suggestion
 
-### Terminal
-Use iTerm2 for CLI RUN and DB BROWSE
-
 ### Plugins:
-
+* Better Comments
+* C/C++
 * Dracula Official (soft theme)
-* GitLens
+* ES7 React/Redux/GraphQL/React-Native snippets
+* filesize
+* npm
+* npm intellisense
+* Output Colorizer
+* Python
+* shell-format
+* SmoothType
+* Todo Tree
+* TSLint
+* TypeScript Hero
+* Version Lens
+* Visual Studio IntelliCode
+* YAML
 
-additionaly for Angular!
++ for Angular:
 * (Angular Language Service)
 * (Angular v5 Snippets)
-* (TSlint)
 
 ### Settings
 
