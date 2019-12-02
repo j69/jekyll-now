@@ -30,6 +30,10 @@ a:hover{
     display: block;
 }
 
+.gandalf{
+    text-align: center;
+}
+
 #cv {
 	width: 90%;
 	max-width: 1112px;
