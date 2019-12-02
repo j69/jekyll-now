@@ -20,16 +20,6 @@ a{
 a:hover{
     background-color: #0096c1;
 }
-
-.comment{
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    color: #999999;
-    display: block;
-}
-
 .gandalf{
     text-align: center;
 }
@@ -58,7 +48,7 @@ nav a{
     -moz-column-count: 3;
     column-count: 3;
 }
-.pad, .comment {
+.pad{
     font-family: Courier New, monospace
 }
 .blue {
