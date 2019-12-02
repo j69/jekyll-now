@@ -73,14 +73,10 @@ i, cite, em, var, address, dfn {
 .orange {
     color: #fd971f;
 }
-.string-indent {
-    display: block;
-    text-indent: -29px;
-    padding-left: 58px;
-}
 .fuschia {
     color: #ec007c;
 }
+
 .yellow {
     color: #efe158;
 }
