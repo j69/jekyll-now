@@ -27,7 +27,6 @@ permalink: /vsc/
 * Output Colorizer
 * Python
 * shell-format
-* SmoothType
 * Todo Tree
 * TSLint
 * TypeScript Hero
@@ -70,6 +69,7 @@ Preferences -> Settings - User.
     "terminal.integrated.cursorStyle": "block",
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 100,
+    "editor.cursorSmoothCaretAnimation": true,
     "git.autofetch": true,
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
