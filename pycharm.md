@@ -6,8 +6,6 @@ permalink: /pycharm/
 # custom VM options
 -Dproject.tree.structure.show.url=false
 
-# PyCharm Settings
-
 ## Appearance
 * Drag and drop with ALT
 
@@ -45,6 +43,7 @@ permalink: /pycharm/
 * shell
 * terminal
 * Yaml
+
 ### external
 * Requirements
 * power mode2
