@@ -26,7 +26,7 @@ permalink: /pycharm/
 * size - 18
 
 ### color scheme
-* Material ONe Dark
+[Material One Dark modified](Material One Dark69.icls)
 
 ### inspections
 * turn off HTML, JSON
