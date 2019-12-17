@@ -40,8 +40,6 @@ permalink: /pycharm/
 * intellilang
 * machine code
 * markdown
-* shell
-* terminal
 * Yaml
 
 ### external
