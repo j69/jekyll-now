@@ -20,6 +20,7 @@ permalink: /pycharm/
 * ensure line feed at file end on Save
 * turn off breadcrumbs
 * turn off code folding
+* turn off code folding for imports
 
 ### Font
 * font - Menlo
@@ -39,7 +40,6 @@ permalink: /pycharm/
 * git
 * intellilang
 * machine code
-* markdown
 * Yaml
 
 ### external
