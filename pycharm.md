@@ -36,12 +36,10 @@ permalink: /pycharm/
 * turn off Emmet
 
 ## Plugins
-### bundled
 * git
-* intellilang
-* machine code
 * Yaml
-
-### external
 * Requirements
-* power mode2
+* power mode 2
+* ini
+* .env file support
+* EnvFile
