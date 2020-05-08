@@ -4,8 +4,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block;  }
 
 html, body {
-    font-family: 'Verdana', sans-serif;
-    background: #0b0b0e;
+    background: #2b2b2f;
     color: #f8f8f2;
 }
 .clear {clear: both;}
