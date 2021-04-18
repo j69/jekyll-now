@@ -40,6 +40,4 @@ permalink: /pycharm/
 * Yaml
 * Requirements
 * power mode 2
-* ini
-* .env file support
-* EnvFile
+* CodeGlance
