@@ -42,4 +42,3 @@ permalink: /pycharm/
 * power mode 2
 * ini
 * .env file support
-* EnvFile
