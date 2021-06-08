@@ -60,6 +60,9 @@ brew cask install
 * speedtest-cli
 * authy
 
+## More fun
+* sl fortune cmatrix
+
 ## Useful Terminal Commands
 * calendar - `cal`
 * calculator - `bc`
