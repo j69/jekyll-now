@@ -73,9 +73,6 @@ brew cask install
 ## Donwload files without browser
 'curl -O https://get.videolan.org/vlc/3.0.3/macosx/vlc-3.0.3.dmg'
 
-## Safari settings
-+ [AdGuard](https://adguard.com/en/welcome.html)
-
 ## Chrome settings
 + [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 + chrome://flags/ - `Turn off caching of streaming media to disk`
