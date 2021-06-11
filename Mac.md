@@ -46,7 +46,24 @@ defaults write -g com.apple.mouse.scaling 12.0
 # Terminal setup
 https://brew.sh/
 
-brew install --cask terminus
+## iterm2
+brew cask install iterm2
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install zsh-syntax-highlighting
+
+Install Powerlevel10k for your plugin manager for Oh My Zsh
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+
+nano ~/.zshrc
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+p10k configure
+
+You could also assign custom keys in Prefs -> Keys
+shift+left - move end of selection back
+shift + right - move end of selection forward
+
+
 
 ## Install other apps
 brew cask install
